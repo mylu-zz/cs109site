@@ -8,6 +8,11 @@ function showCatClothing() {
     html = "<img src=\"images/scoredists/Clothing_&_Accessories_scoredist.jpg\" alt=\"Clothing Score Dist\">";
     $('#cat_dist').html(html);
 }
+function showCatElectronics() {
+    $('#cat_dist').html('');
+    html = "<img src=\"images/scoredists/Electronics_scoredist.jpg\" alt=\"Electronics Score Dist\">";
+    $('#cat_dist').html(html);
+}
 
 function show2004() {
     $('#time_buttons').html('');
