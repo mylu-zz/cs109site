@@ -32,8 +32,10 @@ function show2004() {
     html+= "<button type=\"button\" class=\"btn btn-default\" id=\"tools2004\">Tools</button>";
     html+= "<button type=\"button\" class=\"btn btn-default\" id=\"toys2004\">Toys</button>";
     html+= "<button type=\"button\" class=\"btn btn-default\" id=\"time_back\">Back</button></div>";
-    $('.art2004').click(showArt2004);
+    $('#art2004').click(showArt2004);
     $('#time_buttons').html(html);
+    $('#art2004').click(showArt2004);
+    $('.art2004').click(showArt2004);
 }
 function show2005() {
     $('#time_buttons').html('');
