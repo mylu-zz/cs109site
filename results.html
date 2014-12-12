@@ -4,6 +4,10 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <title>Give It Five Stars! by mylu</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <link href="stylesheets/bootstrap.css" rel="stylesheet"/>
+            <script src="javascript/jquery-1.8.2.js"></script>
     <script>
       function showBOW() {
     $('#bow_text').html('');
@@ -19,11 +23,6 @@ function showLDA() {
 }
 
 $(document).ready(function () {
-    $('#cat_art').click(showCatArt);
-    $('#cat_clothing').click(showCatClothing);
-    $('#cat_electronics').click(showCatElectronics);
-    $('#ma_art').click(showMAArt);
-    $('ma_clothing').click(showMAClothing);
     $('bag_of_words').click(showBOW);
     $('sentiment').click(showSentiment);
     $('lda').click(showLDA);
