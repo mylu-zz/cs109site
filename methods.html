@@ -36,6 +36,13 @@
           <h3> Methods </h3>
           In order to examine the relationship between review text and scores, we build classifiers to predict score based on text features. We outline our three approaches below:
           <h5> Bag of Words </h5>
+          <p>The "bag-of-words" or N-gram model looks to see whether the words or combination of words, and the frequency of these combinations can be used to predict the score of a product review.The text of the review is broken up first into "tokens" or "N-grams." A 1-gram (also called unigram or simply bag-of-words) is a collection of single words. A 2-gram/bigram is a collection of two word tokens. A 3-gram/trigram is a collection of 3 word tokens and so on. 
+          </p><p>For example, the sentence "Daniel likes to play football." can be tokenized in several different ways using n-gram models:
+          </p><p>Unigram: ['Daniel', 'likes', 'to', 'play', 'football']</br>
+          Bigram: ['Daniel likes', 'likes to', 'to play', 'play football']</br>
+          Trigram: ['Daniel likes to', 'likes to play', 'to play football']
+          </p><p>Once the collection of n-grams is made, the number of occurances of each n-gram is tallied, and this information is passed to the classifier. The classifier will then classify based on the n-grams in the collection as well as their frequencies. n-grams that are very unique and occur often within a specific set of documents are more informative than n-grams that appear in all documents. So in classifying reviews, words like "I" or "bought" might be uninformative while words like "fantastic" might be more specific to highly rated reviews.  
+          </p>
           <h5> Sentiment Analysis </h5>
           <h5> Latent Dirichlet Allocation </h5>
       </section>
