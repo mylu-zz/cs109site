@@ -49,7 +49,7 @@ $(document).ready(function () {
     $('#cat_art').click(showCatArt);
     $('#cat_clothing').click(showCatClothing);
     $('#cat_electronics').click(showCatElectronics);
-    $('#2004').click(show2004);
+    $('#t2004').click(show2004);
     $('#2005').click(show2005);
     $('#2006').click(show2006);
     $('#2007').click(show2007);
