@@ -21,7 +21,7 @@ function showArt2004() {
 function show2004() {
     $('#time_buttons').html('');
     html = "<div class=\"btn-group\" role=\"group\" aria-label=\"...\">";
-    html+= "<button type=\"button\" class=\"btn btn-default\" id=\"art2004\">Arts</button>";
+    html+= "<button type=\"button\" href = \"#\" class=\"btn btn-default\" id=\"art2004\">Arts</button>";
     html+= "<button type=\"button\" class=\"btn btn-default\" id=\"clothing2004\">Clothing</button>";
     html+= "<button type=\"button\" class=\"btn btn-default\" id=\"electronics2004\">Electronics</button>";
     html+= "<button type=\"button\" class=\"btn btn-default\" id=\"health2004\">Health</button>";
