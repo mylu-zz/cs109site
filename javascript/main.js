@@ -110,6 +110,59 @@ function showMAHome() {
     html += "<a class=\"carousel-control right\" href=\"#myCarousel\" data-slide=\"next\">›</a></div>";
     $('#time_corr').html(html);
 }
+function showMAOutdoors() {
+    $('#time_corr').html('');
+    html = "<div id=\"myCarousel\" class=\"carousel slide\"><div class=\"carousel-inner\" width=\"100%\" height=\"100%\">";
+    html += "<div class=\"item\"><img src=\"images/ma_analysis/Sports_&_Outdoors/Sports_&_Outdoors_ma_analysis_B000ACAMJC.jpg\"/>";
+    html += "</div><div class=\"item\"><img src=\"images/ma_analysis/Sports_&_Outdoors/Sports_&_Outdoors_ma_analysis_B000AMUFPS.jpg\"/>";
+    html += "</div><div class=\"item\"><img src=\"images/ma_analysis/Sports_&_Outdoors/Sports_&_Outdoors_ma_analysis_B000EHYZKK.jpg\" />";
+    html += "</div><div class=\"item\"><img src=\"images/ma_analysis/Sports_&_Outdoors/Sports_&_Outdoors_ma_analysis_B000KIMTCY.jpg\" />";
+    html += "</div><div class=\"item\"><img src=\"images/ma_analysis/Sports_&_Outdoors/Sports_&_Outdoors_ma_analysis_B000PH1WPA.jpg\" />";
+    html += "</div><div class=\"item\"><img src=\"images/ma_analysis/Sports_&_Outdoors/Sports_&_Outdoors_ma_analysis_B000SVI0FS.jpg\" />";
+    html += "</div></div><a class=\"carousel-control left\" href=\"#myCarousel\" data-slide=\"prev\">‹</a>"; 
+    html += "<a class=\"carousel-control right\" href=\"#myCarousel\" data-slide=\"next\">›</a></div>";
+    $('#time_corr').html(html);
+}
+function showMAPhones() {
+    $('#time_corr').html('');
+    html = "<div id=\"myCarousel\" class=\"carousel slide\"><div class=\"carousel-inner\" width=\"100%\" height=\"100%\">";
+    html += "<div class=\"item\"><img src=\"images/ma_analysis/Cell_Phones_&_Accessories/Cell_Phones_&_Accessories_ma_analysis_B0000ALPBP.jpg\"/>";
+    html += "</div><div class=\"item\"><img src=\"images/ma_analysis/Cell_Phones_&_Accessories/Cell_Phones_&_Accessories_ma_analysis_B0000ALPBP.jpg\"/>";
+    html += "</div><div class=\"item\"><img src=\"images/ma_analysis/Cell_Phones_&_Accessories/Cell_Phones_&_Accessories_ma_analysis_B000EYTBOS.jpg\" />";
+    html += "</div><div class=\"item\"><img src=\"images/ma_analysis/Cell_Phones_&_Accessories/Cell_Phones_&_Accessories_ma_analysis_B000IN5ZHM.jpg\" />";
+    html += "</div><div class=\"item\"><img src=\"images/ma_analysis/Cell_Phones_&_Accessories/Cell_Phones_&_Accessories_ma_analysis_B000J2XZ1K.jpg\" />";
+    html += "</div><div class=\"item\"><img src=\"images/ma_analysis/Cell_Phones_&_Accessories/Cell_Phones_&_Accessories_ma_analysis_B0002WRGHG.jpg\" />";
+    html += "</div><div class=\"item\"><img src=\"images/ma_analysis/Cell_Phones_&_Accessories/Cell_Phones_&_Accessories_ma_analysis_B0009B0IX4.jpg\" />";
+    html += "</div></div><a class=\"carousel-control left\" href=\"#myCarousel\" data-slide=\"prev\">‹</a>"; 
+    html += "<a class=\"carousel-control right\" href=\"#myCarousel\" data-slide=\"next\">›</a></div>";
+    $('#time_corr').html(html);
+}
+function showMATools() {
+    $('#time_corr').html('');
+    html = "<div id=\"myCarousel\" class=\"carousel slide\"><div class=\"carousel-inner\" width=\"100%\" height=\"100%\">";
+    html += "<div class=\"item\"><img src=\"images/ma_analysis/Tools_&_Home_Improvement/Tools_&_Home_Improvement_ma_analysis_B0000AUSOL.jpg\"/>";
+    html += "</div><div class=\"item\"><img src=\"images/ma_analysis/Tools_&_Home_Improvement/Tools_&_Home_Improvement_ma_analysis_B000DZGN7Q.jpg\"/>";
+    html += "</div><div class=\"item\"><img src=\"images/ma_analysis/Tools_&_Home_Improvement/Tools_&_Home_Improvement_ma_analysis_B000G837TW.jpg\" />";
+    html += "</div><div class=\"item\"><img src=\"images/ma_analysis/Tools_&_Home_Improvement/Tools_&_Home_Improvement_ma_analysis_B000IXAJZA.jpg\" />";
+    html += "</div><div class=\"item\"><img src=\"images/ma_analysis/Tools_&_Home_Improvement/Tools_&_Home_Improvement_ma_analysis_B000PICTYC.jpg\" />";
+    html += "</div><div class=\"item\"><img src=\"images/ma_analysis/Tools_&_Home_Improvement/Tools_&_Home_Improvement_ma_analysis_B00004RAMT.jpg\" />";
+    html += "</div></div><a class=\"carousel-control left\" href=\"#myCarousel\" data-slide=\"prev\">‹</a>"; 
+    html += "<a class=\"carousel-control right\" href=\"#myCarousel\" data-slide=\"next\">›</a></div>";
+    $('#time_corr').html(html);
+}
+function showMAToys() {
+    $('#time_corr').html('');
+    html = "<div id=\"myCarousel\" class=\"carousel slide\"><div class=\"carousel-inner\" width=\"100%\" height=\"100%\">";
+    html += "<div class=\"item\"><img src=\"images/ma_analysis/Toys_&_Games/Toys_&_Games_ma_analysis_B000BTNQUQ.jpg\"/>";
+    html += "</div><div class=\"item\"><img src=\"images/ma_analysis/Toys_&_Games/Toys_&_Games_ma_analysis_B00000ISC5.jpg\"/>";
+    html += "</div><div class=\"item\"><img src=\"images/ma_analysis/Toys_&_Games/Toys_&_Games_ma_analysis_B00004TFLB.jpg\" />";
+    html += "</div><div class=\"item\"><img src=\"images/ma_analysis/Toys_&_Games/Toys_&_Games_ma_analysis_B00005AWB5.jpg\" />";
+    html += "</div><div class=\"item\"><img src=\"images/ma_analysis/Toys_&_Games/Toys_&_Games_ma_analysis_B00008W72D.jpg\" />";
+    html += "</div><div class=\"item\"><img src=\"images/ma_analysis/Toys_&_Games/Toys_&_Games_ma_analysis_B000063XO3.jpg\" />";
+    html += "</div></div><a class=\"carousel-control left\" href=\"#myCarousel\" data-slide=\"prev\">‹</a>"; 
+    html += "<a class=\"carousel-control right\" href=\"#myCarousel\" data-slide=\"next\">›</a></div>";
+    $('#time_corr').html(html);
+}
 
 $(document).ready(function () {
     $('#cat_art').click(showCatArt);
