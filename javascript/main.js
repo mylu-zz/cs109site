@@ -10,6 +10,7 @@ function showCatClothing() {
 }
 
 function show2004() {
+    $('#time_buttons').html('');
     html = "<div class=\"btn-group\" role=\"group\" aria-label=\"...\">";
     html+= "<button type=\"button\" class=\"btn btn-default\" id=\"art2004\">Arts</button>";
     html+= "<button type=\"button\" class=\"btn btn-default\" id=\"clothing2004\">Clothing</button>";
@@ -21,10 +22,11 @@ function show2004() {
     html+= "<button type=\"button\" class=\"btn btn-default\" id=\"tools2004\">Tools</button>";
     html+= "<button type=\"button\" class=\"btn btn-default\" id=\"toys2004\">Toys</button>";
     html+= "<button type=\"button\" class=\"btn btn-default\" id=\"time_back\">Back</button></div>";
-    $('#time_buttons').html(html)
+    $('#time_buttons').html(html);
 }
 
 function showTimeButtons() {
+    $('#time_buttons').html('');
     html= "<div id="time_buttons">
     html+= "<div class=\"btn-group\" role=\"group\" aria-label=\"...\">
     html+= "<button type=\"button\" class=\"btn btn-default\" id=\"2004\">2004</button>";
@@ -36,7 +38,7 @@ function showTimeButtons() {
     html+= "<button type=\"button\" class=\"btn btn-default\" id=\"2010\">2010</button>";
     html+= "<button type=\"button\" class=\"btn btn-default\" id=\"2011\">2011</button>";
     html+= "<button type=\"button\" class=\"btn btn-default\" id=\"2012\">2012</button></div>";
-    $('#time_buttons').html(html)
+    $('#time_buttons').html(html);
 }
 
 /*
