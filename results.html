@@ -55,6 +55,7 @@
       <p>Our three classification methods produced accuracies up to 60% by examining review text alone. We outline each result below:</p>
 
       <h4>Bag of Words</h4>
+      <p>Bag of Words/N-Grams gave us decent results with around 50% accuracy for unigrams to as low as 20% with trigrams. Combining unigrams and bigrams (unibigrams) and all three of the N-gram models (allgrams) did not lead to better performance than the unigrams alone. The reason for bigrams and trigrams not having great predictive accuracy is that the frequency of most bigrams and trigrams within one review was likely very low, so each bigram or trigram was not assigned as high of a weight by the classifier. Thus for the trigrams, the classifier was only as accurate as random guessing of the score (20%). The results by product category were very similar, however, indicating that predictive capacity for scores does not vary much with this model by category.</p>
       <h4>Sentiment Analysis</h4>
       <img src="images/sentiment_analysis_accuracy.jpg"/>
       <h4>Latent Dirichlet Allocation</h4>
