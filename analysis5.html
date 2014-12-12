@@ -288,7 +288,19 @@ $(document).ready(function () {
         </br>
         </br>
         <h4>Time Correlation Analysis</h4>
+        We conduct a running mean on a window of 20 scores for random products in each category. We notice oscillations for most products, suggesting dependence between reviews.
         <div id="time_corr">
+        </div>
+        <div class="btn-group" role="group" aria-label="...">
+        <button type="button" class="btn btn-default" id="ma_art">Arts</button>
+        <button type="button" class="btn btn-default" id="ma_clothing">Clothing</button>
+        <button type="button" class="btn btn-default" id="ma_electronics">Electronics</button>
+        <button type="button" class="btn btn-default" id="ma_health">Health</button>
+        <button type="button" class="btn btn-default" id="ma_home">Home</button>
+        <button type="button" class="btn btn-default" id="ma_outdoors">Outdoors</button>
+        <button type="button" class="btn btn-default" id="ma_phones">Phones</button>
+        <button type="button" class="btn btn-default" id="ma_tools">Tools</button>
+        <button type="button" class="btn btn-default" id="ma_toys">Toys</button>
         </div>
 
 
