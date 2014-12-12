@@ -56,6 +56,20 @@ function showMAArt() {
     html += "<a class=\"carousel-control right\" href=\"#myCarousel\" data-slide=\"next\">›</a></div>";
     $('#time_corr').html(html);
 }
+function showMAClothing() {
+    $('#time_corr').html('');
+    html = "<div id=\"myCarousel\" class=\"carousel slide\"><div class=\"carousel-inner\" width=\"100%\" height=\"100%\">";
+    html += "<div class=\"item\"><img src=\"images/ma_analysis/Clothing_&_Accessories/Clothing_&_Accessories_ma_analysis_B000ID49Y2.jpg\"/>";
+    html += "</div><div class=\"item\"><img src=\"images/ma_analysis/Clothing_&_Accessories/Clothing_&_Accessories_ma_analysis_B000ID49Y2.jpg\"/>";
+    html += "</div><div class=\"item\"><img src=\"images/ma_analysis/Clothing_&_Accessories/Clothing_&_Accessories_ma_analysis_B000ID49Z6.jpg\" />";
+    html += "</div><div class=\"item\"><img src=\"images/ma_analysis/Clothing_&_Accessories/Clothing_&_Accessories_ma_analysis_B000ND1YKE.jpg\" />";
+    html += "</div><div class=\"item\"><img src=\"images/ma_analysis/Clothing_&_Accessories/Clothing_&_Accessories_ma_analysis_B00016QOZS.jpg\" />";
+    html += "</div><div class=\"item\"><img src=\"images/ma_analysis/Clothing_&_Accessories/Clothing_&_Accessories_ma_analysis_B00016QPBQ.jpg\" />";
+    html += "</div><div class=\"item\"><img src=\"images/ma_analysis/Clothing_&_Accessories/Clothing_&_Accessories_ma_analysis_B00062NPEK.jpg\"/>";
+    html += "</div></div><a class=\"carousel-control left\" href=\"#myCarousel\" data-slide=\"prev\">‹</a>"; 
+    html += "<a class=\"carousel-control right\" href=\"#myCarousel\" data-slide=\"next\">›</a></div>";
+    $('#time_corr').html(html);
+}
 
 $(document).ready(function () {
     $('#cat_art').click(showCatArt);
@@ -68,5 +82,12 @@ $(document).ready(function () {
     $('#cat_tools').click(showCatTools);
     $('#cat_toys').click(showCatToys);
     $('#ma_art').click(showMAArt);
-    $('ma_clothing').click(showMAClothing);
+    $('#ma_clothing').click(showMAClothing);
+    $('#ma_electronics').click(showMAElectronics);
+    $('#ma_health').click(showMAHealth);
+    $('#ma_home').click(showMAHome);
+    $('#ma_outdoors').click(showMAOutdoors);
+    $('#ma_phones').click(showMAPhones);
+    $('#ma_tools').click(showMATools);
+    $('#ma_toys').click(showMAToys);
 });
