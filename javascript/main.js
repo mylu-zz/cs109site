@@ -1,4 +1,3 @@
-year = 0
 
 function showCatArt() {
     $('#cat_dist').html('');
@@ -23,9 +22,6 @@ function showTArt(event) {
     $('#time_dist').html(html);
 }
 
-function show2004() {
-    year='2004'';
-}
 function show2005() {
     $('#time_buttons').html('');
     html = "<div class=\"btn-group\" role=\"group\" aria-label=\"...\">";
@@ -60,6 +56,4 @@ $(document).ready(function () {
     $('#t2010').click(show2010);
     $('#t2011').click(show2011);
     $('#t2012').click(show2012);
-    $('#tart').click({param1:year},showTArt);
-    $('#time_back').click(showTimeButtons);
 });
