@@ -13,7 +13,11 @@ function showCatElectronics() {
     html = "<img src=\"images/scoredists/Electronics_scoredist.jpg\" alt=\"Electronics Score Dist\">";
     $('#cat_dist').html(html);
 }
-
+function showArt2004() {
+    $('#time_dist').html('');
+    html = "<img src=\"images/score_dist_by_year/Arts/Arts_by_year_2004.jpg\" alt=\"Arts 2004 Score Dist\">";
+    $('#time_dist').html(html);
+}
 function show2004() {
     $('#time_buttons').html('');
     html = "<div class=\"btn-group\" role=\"group\" aria-label=\"...\">";
@@ -54,6 +58,7 @@ $(document).ready(function () {
     $('#cat_clothing').click(showCatClothing);
     $('#cat_electronics').click(showCatElectronics);
     $('#t2004').click(show2004);
+    $('art2004').click(showArtt2004);
     $('#2005').click(show2005);
     $('#2006').click(show2006);
     $('#2007').click(show2007);
