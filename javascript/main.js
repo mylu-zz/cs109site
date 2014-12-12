@@ -8,7 +8,8 @@ function showCatClothing() {
     html = "<img src=\"images/scoredists/Clothing_&_Accessories_scoredist.jpg\" alt=\"Clothing Score Dist\">";
     $('#cat_dist').html(html);
 }
-         
+
+
 
 /*
  * Executed when page loads
@@ -18,4 +19,9 @@ $(document).ready(function () {
     $('#cat_art').click(showCatArt);
     $('#cat_clothing').click(showCatClothing);
     $('#cat_electronics').click(showCatElectronics);
+    $('#2004').click(show2004);
+    $('#2004').click(show2004);
+    $('#2004').click(show2004);
+    $('#2004').click(show2004);
+    $('#2004').click(show2004);
 });
