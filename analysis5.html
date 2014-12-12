@@ -9,8 +9,32 @@
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
     <link href="stylesheets/bootstrap.css" rel="stylesheet"/>
             <script src="javascript/jquery-1.8.2.js"></script>
-            <script src="javascript/main.js"></script>
             
+            <script>
+              
+function showTArt() {
+    $('#time_dist').html('');
+    html = "<img src=\"images/score_dist_by_year/Arts/Arts_by_year_2005.jpg\" alt=\"Electronics Score Dist\">";
+    $('#time_dist').html(html);
+}
+
+/*
+ * Executed when page loads
+ */
+$(document).ready(function () {
+    // assigns functions that are executed when a button is clicked
+    $('#tart').click(showTArt);
+    $('#tclothing').click(showTClothing);
+    $('#telectronics').click(showTElectronics);
+    $('#thealth').click(showTHealth);
+    $('#thome').click(showTHome);
+    $('#toutdoors').click(showTOutdoors);
+    $('#tphone').click(showTPhones);
+    $('#ttools').click(showTTools);
+    $('#ttoys').click(showTToys);
+    
+});
+            </script>
             
             
             
@@ -71,15 +95,16 @@
         <div id="time_dist">
         </div>
         <div class="btn-group" role="group" aria-label="...">
-        <a href="analysis5.html" class="btn btn-default" id="t2005">2005</a>
-        <a href="analysis6.html" class="btn btn-default" id="t2006">2006</a>
-        <a href="analysis7.html" class="btn btn-default" id="t2007">2007</a>
-        <a href="analysis8.html" class="btn btn-default" id="t2008">2008</a>
-        <a href="analysis9.html" class="btn btn-default" id="t2009">2009</a>
-        <a href="analysis10.html" class="btn btn-default" id="t2010">2010</a>
-        <a href="analysis11.html" class="btn btn-default" id="t2011">2011</a>
-        <a href="analysis12.html" class="btn btn-default" id="t2012">2012</a> 
-        </div>
+        <a class="btn btn-default" id="tart">Arts</a>
+        <a class="btn btn-default" id="tclothing">Clothing</a>
+        <a class="btn btn-default" id="telectronics">Electronics</a>
+        <a class="btn btn-default" id="thealth">Health</a>
+        <a class="btn btn-default" id="thome">Home</a>
+        <a class="btn btn-default" id="toutdoors">Outdoors</a>
+        <a class="btn btn-default" id="tphones">Phones</a>
+        <a class="btn btn-default" id="ttools">Tools</a>
+        <a class="btn btn-default" id="ttoys">Toys</a>
+        <a href="analysis.html" class="btn btn-default" id="back">Back</a>
         </div>
         </br>
         </br>
