@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Give It Five Stars! by mylu</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Give It Five Stars!</h1>
+        <p>An Exploration of Amazon Product Reviews</p>
+        <p>
+        Linda Du</br>
+        Max Lu</br>
+        Daniel Park</p>
+
+        <p class="view"><a href="https://github.com/mylu/cs109site">View the Project on GitHub <small>mylu/cs109site</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/mylu/cs109site/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/mylu/cs109site/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/mylu/cs109site">View On <strong>GitHub</strong></a></li>
+        </ul>
+        <a href="index.html">Home</a><br>
+        <a href="overview.html">Overview</a><br>
+        <a href="analysis.html">Analysis</a><br>
+        <a href="methods.html">Methods</a><br>
+        <a href="results.html">Results</a><br>
+      </header>
+      <section>
+      <h2>Results</h2>
+      <h4>Summary</h4>
+      <p>From our exploratory analysis, we see that reviews are heavily skewed towards the extremes (5 star and 1 star reviews); indicating that there may be some response bias; people usually only write a review if they have strong feelings. The majority of scores are 5 stars, suggesting inflation in Amazon scores. This behavior is evident across all time periods and classes. </p>
+      <p>Looking at the time correlation data, we see that the moving average of the 20 most review scores for a given product oscillates up and down. Although this oscillation may be due to temporal changes in product quality or public opinion, we see this behavior across all products. The data likely suggests that reviews are dependent on each other; Amazon users' reviews are likely influenced byprevious users' reviews.</p>
+      <p>Our three classification methods produced accuracies up to 60% by examining review text alone. We outline each result below:</p>
+
+      <a href="#" id="bag_of_words" >Bag of Words</a>
+      <div id="bow_text"></div>
+      <a href="#" id="sentiment" >Sentiment Analysis</a>
+      <div id="sentiment_text"></div>
+      <a href="#" id="lda" >Latent Dirichlet Allocation</a>
+      <div id="lda_text"></div>
+</p>
+        
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/mylu">mylu</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
