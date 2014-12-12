@@ -13,6 +13,36 @@ function showCatElectronics() {
     html = "<img src=\"images/scoredists/Electronics_scoredist.jpg\" alt=\"Electronics Score Dist\">";
     $('#cat_dist').html(html);
 }
+function showCatHealth() {
+    $('#cat_dist').html('');
+    html = "<img src=\"images/scoredists/Health_scoredist.jpg\" alt=\"Health Score Dist\">";
+    $('#cat_dist').html(html);
+}
+function showCatHome() {
+    $('#cat_dist').html('');
+    html = "<img src=\"images/scoredists/Home_&_Kitchen_scoredist.jpg\" alt=\"Home Score Dist\">";
+    $('#cat_dist').html(html);
+}
+function showCatOutdoors() {
+    $('#cat_dist').html('');
+    html = "<img src=\"images/scoredists/Sports_&_Outdoors_scoredist.jpg\" alt=\"Outdoors Score Dist\">";
+    $('#cat_dist').html(html);
+}
+function showCatPhones() {
+    $('#cat_dist').html('');
+    html = "<img src=\"images/scoredists/Cell_Phones_&_Accessories_scoredist.jpg\" alt=\"Phones Score Dist\">";
+    $('#cat_dist').html(html);
+}
+function showCatTools() {
+    $('#cat_dist').html('');
+    html = "<img src=\"images/scoredists/Tools_&_Home_Improvement_scoredist.jpg\" alt=\"Tools Score Dist\">";
+    $('#cat_dist').html(html);
+}
+function showCatToys() {
+    $('#cat_dist').html('');
+    html = "<img src=\"images/scoredists/Toys_&_Games_scoredist.jpg\" alt=\"Toys Score Dist\">";
+    $('#cat_dist').html(html);
+}
 function showMAArt() {
     $('#time_corr').html('');
     html = "<div id=\"myCarousel\" class=\"carousel slide\"><div class=\"carousel-inner\" width=\"100%\" height=\"100%\">";
@@ -31,6 +61,12 @@ $(document).ready(function () {
     $('#cat_art').click(showCatArt);
     $('#cat_clothing').click(showCatClothing);
     $('#cat_electronics').click(showCatElectronics);
+    $('#cat_health').click(showCatHealth);
+    $('#cat_home').click(showCatHome);
+    $('#cat_outdoors').click(showCatOutdoors);
+    $('#cat_phones').click(showCatPhones);
+    $('#cat_tools').click(showCatTools);
+    $('#cat_toys').click(showCatToys);
     $('#ma_art').click(showMAArt);
     $('ma_clothing').click(showMAClothing);
 });
