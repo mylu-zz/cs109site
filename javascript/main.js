@@ -58,7 +58,7 @@ $(document).ready(function () {
     $('#cat_clothing').click(showCatClothing);
     $('#cat_electronics').click(showCatElectronics);
     $('#t2004').click(show2004);
-    $('#art2004').click(showArtt2004);
+    $('#art2004').click(showArt2004);
     $('#t2005').click(show2005);
     $('#t2006').click(show2006);
     $('#t2007').click(show2007);
