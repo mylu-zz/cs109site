@@ -1,4 +1,4 @@
-function showCatArt() {
+              function showCatArt() {
     $('#cat_dist').html('');
     html = "<img src=\"images/scoredists/Arts_scoredist.jpg\" alt=\"Arts Score Dist\">";
     $('#cat_dist').html(html);
@@ -18,10 +18,11 @@ function showArt2004() {
     html = "<img src=\"images/score_dist_by_year/Arts/Arts_by_year_2004.jpg\" alt=\"Arts 2004 Score Dist\">";
     $('#time_dist').html(html);
 }
+
 function show2004() {
     $('#time_buttons').html('');
     html = "<div class=\"btn-group\" role=\"group\" aria-label=\"...\">";
-    html+= "<button type=\"button\" href = \"#\" class=\"btn btn-default\" id=\"art2004\">Arts</button>";
+    html+= "<button type=\"button\" class=\"btn btn-default\" id=\"art2004\">Arts</button>";
     html+= "<button type=\"button\" class=\"btn btn-default\" id=\"clothing2004\">Clothing</button>";
     html+= "<button type=\"button\" class=\"btn btn-default\" id=\"electronics2004\">Electronics</button>";
     html+= "<button type=\"button\" class=\"btn btn-default\" id=\"health2004\">Health</button>";
@@ -31,12 +32,13 @@ function show2004() {
     html+= "<button type=\"button\" class=\"btn btn-default\" id=\"tools2004\">Tools</button>";
     html+= "<button type=\"button\" class=\"btn btn-default\" id=\"toys2004\">Toys</button>";
     html+= "<button type=\"button\" class=\"btn btn-default\" id=\"time_back\">Back</button></div>";
+    $('.art2004').click(showArt2004);
     $('#time_buttons').html(html);
 }
 function show2005() {
     $('#time_buttons').html('');
     html = "<div class=\"btn-group\" role=\"group\" aria-label=\"...\">";
-    html+= "<button type=\"button\" class=\"btn btn-default\" id=\"art2005\">Arts</button>";
+    html+= "<button type=\"button\" class=\"btn btn-default\" id=\"art2005\">Ar ts</button>";
     html+= "<button type=\"button\" class=\"btn btn-default\" id=\"clothing2005\">Clothing</button>";
     html+= "<button type=\"button\" class=\"btn btn-default\" id=\"electronics2005\">Electronics</button>";
     html+= "<button type=\"button\" class=\"btn btn-default\" id=\"health2005\">Health</button>";
