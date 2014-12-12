@@ -36,6 +36,7 @@ function showTimeButtons() {
     html+= "<button type=\"button\" class=\"btn btn-default\" id=\"2010\">2010</button>";
     html+= "<button type=\"button\" class=\"btn btn-default\" id=\"2011\">2011</button>";
     html+= "<button type=\"button\" class=\"btn btn-default\" id=\"2012\">2012</button></div>";
+    $('#time_buttons').html(html)
 }
 
 /*
