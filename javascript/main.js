@@ -23,7 +23,7 @@ function showSlideShow() {
     html += "</div><div class=\"item\"><img src=\"http://images.realestate.com/re/homepage/theme4/2.jpg\" />";
     html += "</div></div><a class=\"carousel-control left\" href=\"#myCarousel\" data-slide=\"prev\">‹</a>"; 
     html += "<a class=\"carousel-control right\" href=\"#myCarousel\" data-slide=\"next\">›</a></div>";
-    $('#time_corr').html(html);
+    $('#time_corr').html('test');
 /*
  * Executed when page loads
  */
