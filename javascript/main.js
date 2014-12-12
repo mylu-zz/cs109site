@@ -37,15 +37,15 @@ function show2004() {
 function showTimeButtons() {
     $('#time_buttons').html('');
     html= "<div class=\"btn-group\" role=\"group\" aria-label=\"...\">";
-    html+= "<button type=\"button\" class=\"btn btn-default\" id=\"2004\">2004</button>";
-    html+= "<button type=\"button\" class=\"btn btn-default\" id=\"2005\">2005</button>";
-    html+= "<button type=\"button\" class=\"btn btn-default\" id=\"2006\">2006</button>";
-    html+= "<button type=\"button\" class=\"btn btn-default\" id=\"2007\">2007</button>";
-    html+= "<button type=\"button\" class=\"btn btn-default\" id=\"2008\">2008</button>";
-    html+= "<button type=\"button\" class=\"btn btn-default\" id=\"2009\">2009</button>";
-    html+= "<button type=\"button\" class=\"btn btn-default\" id=\"2010\">2010</button>";
-    html+= "<button type=\"button\" class=\"btn btn-default\" id=\"2011\">2011</button>";
-    html+= "<button type=\"button\" class=\"btn btn-default\" id=\"2012\">2012</button></div>";
+    html+= "<button type=\"button\" class=\"btn btn-default\" id=\"t2004\">2004</button>";
+    html+= "<button type=\"button\" class=\"btn btn-default\" id=\"t2005\">2005</button>";
+    html+= "<button type=\"button\" class=\"btn btn-default\" id=\"t2006\">2006</button>";
+    html+= "<button type=\"button\" class=\"btn btn-default\" id=\"t2007\">2007</button>";
+    html+= "<button type=\"button\" class=\"btn btn-default\" id=\"t2008\">2008</button>";
+    html+= "<button type=\"button\" class=\"btn btn-default\" id=\"t2009\">2009</button>";
+    html+= "<button type=\"button\" class=\"btn btn-default\" id=\"t2010\">2010</button>";
+    html+= "<button type=\"button\" class=\"btn btn-default\" id=\"t2011\">2011</button>";
+    html+= "<button type=\"button\" class=\"btn btn-default\" id=\"t2012\">2012</button></div>";
     $('#time_buttons').html(html);
 }
 
@@ -57,15 +57,15 @@ $(document).ready(function () {
     $('#cat_art').click(showCatArt);
     $('#cat_clothing').click(showCatClothing);
     $('#cat_electronics').click(showCatElectronics);
-    $('#2004').click(show2004);
+    $('#t2004').click(show2004);
     $('#art2004').click(showArtt2004);
-    $('#2005').click(show2005);
-    $('#2006').click(show2006);
-    $('#2007').click(show2007);
-    $('#2008').click(show2008);
-    $('#2009').click(show2009);
-    $('#2010').click(show2010);
-    $('#2011').click(show2011);
-    $('#2012').click(show2012);
+    $('#t2005').click(show2005);
+    $('#t2006').click(show2006);
+    $('#t2007').click(show2007);
+    $('#t2008').click(show2008);
+    $('#t2009').click(show2009);
+    $('#t2010').click(show2010);
+    $('#t2011').click(show2011);
+    $('#t2012').click(show2012);
     $('#time_back').click(showTimeButtons);
 });
