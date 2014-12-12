@@ -33,4 +33,5 @@ $(document).ready(function () {
     $('#cat_clothing').click(showCatClothing);
     $('#cat_electronics').click(showCatElectronics);
     $('#ma_art').click(showSlideShow);
+    $('#time_corr').html('test1')
 });
