@@ -42,21 +42,6 @@ function show2005() {
     $('#time_buttons').html(html);
 }
 
-function showTimeButtons() {
-    $('#time_buttons').html('');
-    html= "<div class=\"btn-group\" role=\"group\" aria-label=\"...\">";
-    html+= "<button type=\"button\" class=\"btn btn-default\" id=\"t2004\">2004</button>";
-    html+= "<button type=\"button\" class=\"btn btn-default\" id=\"t2005\">2005</button>";
-    html+= "<button type=\"button\" class=\"btn btn-default\" id=\"t2006\">2006</button>";
-    html+= "<button type=\"button\" class=\"btn btn-default\" id=\"t2007\">2007</button>";
-    html+= "<button type=\"button\" class=\"btn btn-default\" id=\"t2008\">2008</button>";
-    html+= "<button type=\"button\" class=\"btn btn-default\" id=\"t2009\">2009</button>";
-    html+= "<button type=\"button\" class=\"btn btn-default\" id=\"t2010\">2010</button>";
-    html+= "<button type=\"button\" class=\"btn btn-default\" id=\"t2011\">2011</button>";
-    html+= "<button type=\"button\" class=\"btn btn-default\" id=\"t2012\">2012</button></div>";
-    $('#time_buttons').html(html);
-}
-
 /*
  * Executed when page loads
  */
