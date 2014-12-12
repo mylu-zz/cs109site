@@ -27,8 +27,7 @@ function show2004() {
 
 function showTimeButtons() {
     $('#time_buttons').html('');
-    html= "<div id="time_buttons">
-    html+= "<div class=\"btn-group\" role=\"group\" aria-label=\"...\">
+    html= "<div class=\"btn-group\" role=\"group\" aria-label=\"...\">";
     html+= "<button type=\"button\" class=\"btn btn-default\" id=\"2004\">2004</button>";
     html+= "<button type=\"button\" class=\"btn btn-default\" id=\"2005\">2005</button>";
     html+= "<button type=\"button\" class=\"btn btn-default\" id=\"2006\">2006</button>";
