@@ -10,7 +10,33 @@
     <link href="stylesheets/bootstrap.css" rel="stylesheet"/>
             <script src="javascript/jquery-1.8.2.js"></script>
             <script src="javascript/main.js"></script>
-            
+            <script>
+              
+              function showCatElectronics() {
+    $('#cat_dist').html('');
+    html = "<img src=\"images/scoredists/Electronics_scoredist.jpg\" alt=\"Electronics Score Dist\">";
+    $('#cat_dist').html(html);
+}
+
+
+
+/*
+ * Executed when page loads
+ */
+$(document).ready(function () {
+    // assigns functions that are executed when a button is clicked
+    $('#tart').click(showTArt);
+    $('#tclothing').click(showTClothing);
+    $('#telectronics').click(showTElectronics);
+    $('#thealth').click(showTHealth);
+    $('#thome').click(showTHome);
+    $('#toutdoors').click(showTOutdoors);
+    $('#tphone').click(showTPhones);
+    $('#ttools').click(showTTools);
+    $('#ttoys').click(showTToys);
+    
+});
+            </script>
             
             
             
