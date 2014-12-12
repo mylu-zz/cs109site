@@ -14,6 +14,7 @@ function showCatClothing() {
 $(document).ready(function () {
     // assigns functions that are executed when a button is clicked
     $('#cat_dist').html('hello');
+$('cat_dist').html('hello');
     $('#cat_art').click(showCatArt);
     $('#cat_clothing').click(showCatClothing);
     $('#cat_electronics').click(showCatElectronics);
