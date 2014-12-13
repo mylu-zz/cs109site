@@ -164,6 +164,12 @@ function showMAToys() {
     $('#time_corr').html(html);
 }
 
+function showBowArt() {
+    $('#bow_dist').html('');
+    html = "<img src=\"images/ngrams/Arts_ngram.jpg\">";
+    $('#bow_dist').html(html); 
+}
+
 $(document).ready(function () {
     $('#cat_art').click(showCatArt);
     $('#cat_clothing').click(showCatClothing);
@@ -183,4 +189,13 @@ $(document).ready(function () {
     $('#ma_phones').click(showMAPhones);
     $('#ma_tools').click(showMATools);
     $('#ma_toys').click(showMAToys);
+    $('#bow_art').click(showBowArt);
+    $('#bow_clothing').click(showBowClothing);
+    $('#bow_electronics').click(showBowElectronics);
+    $('#bow_health').click(showBowHealth);
+    $('#bow_home').click(showBowHome);
+    $('#bow_outdoors').click(showBowOutdoors);
+    $('#bow_phones').click(showBowPhones);
+    $('#bow_tools').click(showBowTools);
+    $('#bow_toys').click(showBowToys);
 });
