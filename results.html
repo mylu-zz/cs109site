@@ -57,6 +57,22 @@
       <h4>Bag of Words</h4>
       
       <p>Bag of Words/N-Grams gave us decent results with around 50% accuracy for unigrams to as low as 20% with trigrams. Combining unigrams and bigrams (unibigrams) and all three of the N-gram models (allgrams) did not lead to better performance than the unigrams alone. The reason for bigrams and trigrams not having great predictive accuracy is that the frequency of most bigrams and trigrams within one review was likely very low, so each bigram or trigram was not assigned as high of a weight by the classifier. Thus for the trigrams, the classifier was only as accurate as random guessing of the score (20%). The results by product category were very similar, however, indicating that predictive capacity for scores does not vary much with this model by category.</p>
+      
+      
+      <div id="bow_dist">
+        </div>
+        <div class="btn-group" role="group" aria-label="...">
+        <button type="button" class="btn btn-default" id="bow_art">Arts</button>
+        <button type="button" class="btn btn-default" id="bow_clothing">Clothing</button>
+        <button type="button" class="btn btn-default" id="bow_electronics">Electronics</button>
+        <button type="button" class="btn btn-default" id="bow_health">Health</button>
+        <button type="button" class="btn btn-default" id="bow_home">Home</button>
+        <button type="button" class="btn btn-default" id="bow_outdoors">Outdoors</button>
+        <button type="button" class="btn btn-default" id="bow_phones">Phones</button>
+        <button type="button" class="btn btn-default" id="bow_tools">Tools</button>
+        <button type="button" class="btn btn-default" id="bow_toys">Toys</button>
+      </div>
+      
       <h4>Sentiment Analysis</h4>
       <p>We train the sentiment analysis program separately for each category of reviews because each category comes with a different set of adjectives (positive and negative) that make sense. For example, "realistic" is a positive adjective for video games, but would not make sense for home & kitchen. "Functional", "Sturdy", and "Protective" are positive adjectives that apply specifically to cell phones. Of course, there are also many general adjectives to be found (i.e. terrible, perfect, etc). We see that for all categories, we have an accuracy of 30-50% and an average error of around 1.6. Some other methods that we could further explore include a more specific metric for the polarity of an adjective. Right now, we do not differentiate between something like "good" and "fantastic". This will give us more nuanced predictions for ratings. Now, we simply use the frequency of positive adjectives to determine the rating. Taking into account polarity would be much better. Furthermore, we should do an analysis of bigrams to reverse any adjectives with something like a "not" in front of it.</p>
       <img src="images/sentiment_analysis_bigtxt.jpg"/>
