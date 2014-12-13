@@ -170,6 +170,48 @@ function showBowArt() {
     $('#bow_dist').html(html); 
 }
 
+function showBowElectronics() {
+    $('#bow_dist').html('');
+    html = "<img src=\"images/ngrams/Electronics_ngram.jpg\">";
+    $('#bow_dist').html(html); 
+}
+
+function showBowClothing() {
+    $('#bow_dist').html('');
+    html = "<img src=\"images/ngrams/Clothing_&_Accessories_ngram.jpg\">";
+    $('#bow_dist').html(html); 
+}
+function showBowHealth() {
+    $('#bow_dist').html('');
+    html = "<img src=\"images/ngrams/Health_ngram.jpg\">";
+    $('#bow_dist').html(html); 
+}
+function showBowPhones() {
+    $('#bow_dist').html('');
+    html = "<img src=\"images/ngrams/Cell_Phones_&_Accessories_ngram.jpg\">";
+    $('#bow_dist').html(html); 
+}
+function showBowHome() {
+    $('#bow_dist').html('');
+    html = "<img src=\"images/ngrams/Home_&_Kitchen_ngram.jpg\">";
+    $('#bow_dist').html(html); 
+}
+function showBowOutdoors() {
+    $('#bow_dist').html('');
+    html = "<img src=\"images/ngrams/Sports_&_Outdoors_ngram.jpg\">";
+    $('#bow_dist').html(html); 
+}
+function showBowTools() {
+    $('#bow_dist').html('');
+    html = "<img src=\"images/ngrams/Tools_&_Home_Improvement_ngram.jpg\">";
+    $('#bow_dist').html(html); 
+}
+function showBowToys() {
+    $('#bow_dist').html('');
+    html = "<img src=\"images/ngrams/Toys_&_Games_ngram.jpg\">";
+    $('#bow_dist').html(html); 
+}
+
 $(document).ready(function () {
     $('#cat_art').click(showCatArt);
     $('#cat_clothing').click(showCatClothing);
